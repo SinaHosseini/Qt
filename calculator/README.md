@@ -10,7 +10,7 @@ A calculator with +, -, × , ÷, %, √, sin, cos, tan, cot, log operations.
 
 ## GUI
 
-![GUI](calculator_GUI.png)
+![GUI](calculator_GUI.png?raw=True)
 
 ## installation
 
