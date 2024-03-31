@@ -60,6 +60,41 @@ def perc():
     percent = True
 
 
+def invert():
+    num1 = float(window.line_edit.text())
+    rsl = num1 * -1
+    window.line_edit.setText(str(rsl))
+
+
+def sin():
+    num1 = float(window.line_edit.text())
+    num1 = num1 / 180 * math.pi
+    rsl = math.sin(num1)
+    window.line_edit.setText(str(rsl))
+
+
+def cos():
+    num1 = float(window.line_edit.text())
+    num1 = num1 / 180 * math.pi
+    rsl = math.cos(num1)
+    window.line_edit.setText(str(rsl))
+
+
+def tan():
+    num1 = float(window.line_edit.text())
+    num1 = num1 / 180 * math.pi
+    rsl = math.tan(num1)
+    window.line_edit.setText(str(rsl))
+
+
+def cot():
+    num1 = float(window.line_edit.text())
+    num1 = num1 / 180 * math.pi
+    rsl = math.cos(num1)
+    rsl = 1 / rsl
+    window.line_edit.setText(str(rsl))
+
+
 def result():
     num2 = float(window.line_edit.text())
 
@@ -121,6 +156,11 @@ window.btn_7.clicked.connect(partial(numbers, "7"))
 window.btn_8.clicked.connect(partial(numbers, "8"))
 window.btn_9.clicked.connect(partial(numbers, "9"))
 window.btn_dot.clicked.connect(dot)
+window.btn_sin.clicked.connect(sin)
+window.btn_cos.clicked.connect(cos)
+window.btn_tan.clicked.connect(tan)
+window.btn_cot.clicked.connect(cot)
+window.btn_inv.clicked.connect(invert)
 window.btn_ac.clicked.connect(all_clear)
 
 app.exec()
