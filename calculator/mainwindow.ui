@@ -690,37 +690,6 @@ border-radius: 10px;</string>
       </property>
      </widget>
     </item>
-    <item row="5" column="3" colspan="2">
-     <widget class="QPushButton" name="btn_result">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="font">
-       <font>
-        <family>Perpetua</family>
-        <pointsize>20</pointsize>
-        <italic>false</italic>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: rgb(140, 140, 255);
-color: rgb(255, 255, 255);
-font: 700 20pt &quot;Perpetua&quot;;
-border-radius: 10px;
-</string>
-      </property>
-      <property name="text">
-       <string>=</string>
-      </property>
-     </widget>
-    </item>
     <item row="0" column="0" colspan="5">
      <widget class="QLineEdit" name="line_edit">
       <property name="sizePolicy">
@@ -732,7 +701,7 @@ border-radius: 10px;
       <property name="font">
        <font>
         <family>Perpetua</family>
-        <pointsize>36</pointsize>
+        <pointsize>30</pointsize>
         <italic>false</italic>
         <bold>false</bold>
        </font>
@@ -749,7 +718,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </property>
       <property name="styleSheet">
        <string notr="true">border: 2px solid #cccccc;
-font: 36pt &quot;Perpetua&quot;;
+font: 30pt &quot;Perpetua&quot;;
 color: rgb(255, 255, 255);
 border-radius: 5px;</string>
       </property>
@@ -789,6 +758,67 @@ background-color: rgb(255, 98, 20);</string>
       </property>
       <property name="text">
        <string>AC</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="btn_result">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Perpetua</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(140, 140, 255);
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Perpetua&quot;;
+border-radius: 10px;
+</string>
+      </property>
+      <property name="text">
+       <string>=</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QPushButton" name="btn_log">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="font">
+       <font>
+        <family>Perpetua</family>
+        <pointsize>20</pointsize>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 60, 60);
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Perpetua&quot;;
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>log</string>
       </property>
      </widget>
     </item>

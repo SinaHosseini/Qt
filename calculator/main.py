@@ -95,6 +95,12 @@ def cot():
     window.line_edit.setText(str(rsl))
 
 
+def log():
+    num1 = float(window.line_edit.text())
+    num2 = math.log(num1)
+    window.line_edit.setText(str(num2))
+
+
 def result():
     num2 = float(window.line_edit.text())
 
@@ -160,6 +166,7 @@ window.btn_sin.clicked.connect(sin)
 window.btn_cos.clicked.connect(cos)
 window.btn_tan.clicked.connect(tan)
 window.btn_cot.clicked.connect(cot)
+window.btn_log.clicked.connect(log)
 window.btn_inv.clicked.connect(invert)
 window.btn_ac.clicked.connect(all_clear)
 
